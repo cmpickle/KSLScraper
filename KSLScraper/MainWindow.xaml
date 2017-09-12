@@ -12,6 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="45px" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -34,5 +35,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+
+        <Button Content="Configure" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="10"/>
     </Grid>
 </Window>
